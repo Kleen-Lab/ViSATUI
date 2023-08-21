@@ -1,0 +1,10 @@
+# ignore all files
+*
+
+# except the actual files needed for the UI
+!.gitignore
+!Set1.mat
+!Set2.mat
+!Set3.mat
+!Set4.mat
+!ViSATUI.mlapp
