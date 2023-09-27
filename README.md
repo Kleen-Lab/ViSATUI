@@ -6,13 +6,13 @@ Welcome to the repository for the Visual Semantic Association Task (ViSAT).
 
 ViSAT is an image-based task that tests the ability to associate the content between images based on factual/general long-term knowledge about them. The ViSAT task specifically targets non-verbal semantic memory. There are no requirements of sound, speech, reading, or writing to perform the task. 
 
-As an example, one might associate an image of a squirrel would be most-associated with an image of a nut compared to images of a potato, corn, or a carrot. In this example, the squirrel image would be called the "stimulus" and the other 4 images are called the "answer" images.
+As an example, for most people an image of a squirrel would be most-associated with an image of a nut compared to images of a potato, corn, or carrots. The squirrel image would be called the "stimulus" and the other 4 images are called the "answer" images.
 
 ![Example of a trial using a squirrel as the stimulus.](assets/squirrel.png)
 
 ## Task development
 
-The task was adapted from concepts and similar stimuli as the Pyramids and Palm Trees (PPT) and Camels and Cactus (CCT) tasks, yet with a variety of features changed:
+The task was adapted from concepts and similar stimuli as the Pyramids and Palm Trees (PPT*) and Camels and Cactus (CCT**) tasks, yet with a variety of features changed:
 1. We used new color and picture images from royalty-free stock photo repositories online (pexels.com, pixabay.com, and unsplash.com).
 2. To increase the potential generalizability of ViSAT across participants of all backgrounds (age, language, education, literacy levels, and socioeconomic status), we avoided religious, generation-specific, culture-specific, outdated, and potentially offensive references. 
 3. To decrease the confounding influences from visuospatial processing, we strived to avoid consistencies in color, size, and shape between stimuli and answers.
@@ -60,4 +60,6 @@ Here are a few tips to make the administration of the task as easy as possible:
 
 ## Cite
 
+* Howard, D. (1992). The Pyramids and Palm Trees Test: A Test of Semantic Access from Words and Pictures. Thames Valley Test Company.
+**Moore et al. (2022). A modified Camel and Cactus Test detects presymptomatic semantic impairment in genetic frontotemporal dementia within the GENFI cohort. Applied Neuropsychology. Adult, 29(1), 112–119.
 The scientific manuscript describing the ViSAT task is currently submitted; upon publication the direct citation will be listed here.
