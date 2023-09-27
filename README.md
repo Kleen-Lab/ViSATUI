@@ -21,7 +21,7 @@ The task was adapted from concepts and similar stimuli as the Pyramids and Palm 
 
 ## User interface
 
-The ViSAT task is delivered by a computer interface, and the software and all stimuli are included in this public repository. 
+The ViSAT task is delivered by a computer interface in MATLAB, and the software and all stimuli are included in this public repository. 
 
 ![Picture of the user interface used to administer the task.](assets/user_interface.png)
 
