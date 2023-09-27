@@ -5,7 +5,8 @@ Welcome to the repository for the Visual Semantic Association Task (ViSAT).
 ViSAT is an image-based task that tests the ability to associate the content between images based on factual/general long-term knowledge about them. The ViSAT task specifically targets non-verbal semantic memory. There are no requirements of sound, speech, reading, or writing to perform the task. 
 
 As an example, one might associate an image of a squirrel would be most-associated with an image of a nut compared to images of a potato, corn, or a carrot. In this example, the squirrel image would be called the "stimulus" and the other 4 images are called the "answer" images.
-[RAPHAEL: Image of squirrel trial here from Figure 2C]
+
+![Example of a trial using a squirrel as the stimulus.](assets/squirrel.png)
 
 The task was adapted from concepts and similar stimuli as PPT and CCT (Figure 1A), yet with a variety of features changed:
 1. We used new color and picture images from royalty-free stock photo repositories online (pexels.com, pixabay.com, and unsplash.com).
@@ -15,14 +16,15 @@ The task was adapted from concepts and similar stimuli as PPT and CCT (Figure 1A
 5. The percent consensus (PCons) of the top answer can therefore be used as a difficulty metric for statistical modeling if desired.
 
 The ViSAT task is delivered by a computer interface, and the software and all stimuli are included in this public repository. 
-[RAPHAEL: Screenshot of user-interface here]
+
+![Picture of the user interface used to administer the task.](assets/user_interface.png)
 
 There are three phases for each trial:
 1. A fixation dot is displayed in the center of the screen for 2 to 3 seconds (duration randomly jittered).
 2. The stimulus image is displayed, and the subject is required to click on it
 3. The four answer choices are displayed, and the subject is required to click on the image that is most associated with the stimulus image
 
-[RAPHAEL: Trial stage image here from Figure 1B]
+![Picture displaying the task workflow, including the fixation point, the stimulus and the answers.](assets/workflow.png)
 
 There are four blocks of 25 trials each, for a total of 100 trials. 
 Each block begins with the same three "practice trials" (not scored) to allow acclimation prior to the actual set of 25 trials. 
