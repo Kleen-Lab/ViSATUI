@@ -14,3 +14,5 @@
 !ViSAT_images/*
 !ViSAT_images/*/*
 !ViSAT_images/*/*/*
+
+.DS_Store
