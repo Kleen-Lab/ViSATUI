@@ -43,6 +43,15 @@ Behavioral metrics provided by the user interface:
 2. Response time for clicking the answer (semantic processing required)
 3. Accuracy (whether consensus/most common answer was chosen)
 
+## Administering the task
+
+To administer the task, you need to:
+- Dowload the current folder, either by cloning the repository or by downloading the zip archive of the folder and extracting it to your desired location.
+- Open the User Interface by double-clicking on the `ViSATUI.mlapp` file that is included in the folder.
+- Enter the `User ID` of the patient that will be performing the task. This `ID` is important, since all data resulting from the task will be saved in a folder named after that `ID`, e.g. `ViSATUI/test_id/`. Make sure to enter the same `ID` for all the blocks that the patient performs.
+- Have the patient start the task on the computer. They can perform all the blocks in one sitting, or take breaks in between sessions. As long as the `ID` stays consistent, you can even close the software in between sessions.
+- Done! You can find the resulting data in the `ViSATUI/ID` folders that are created for each patient `ID`.
+
 ## Tips
 
 Here are a few tips to make the administration of the task as easy as possible: 
