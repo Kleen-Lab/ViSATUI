@@ -12,7 +12,7 @@ As an example, for most people an image of a squirrel would be most-associated w
 
 ## Task development
 
-The task was adapted from concepts and similar stimuli as the Pyramids and Palm Trees (PPT*) and Camels and Cactus (CCT**) tasks, yet with a variety of features changed:
+The task was adapted from concepts and similar stimuli as the Pyramids and Palm Trees (PPT[footnote1]) and Camels and Cactus (CCT[footnote2]) tasks, yet with a variety of features changed:
 1. We used new color and picture images from royalty-free stock photo repositories online (pexels.com, pixabay.com, and unsplash.com).
 2. To increase the potential generalizability of ViSAT across participants of all backgrounds (age, language, education, literacy levels, and socioeconomic status), we avoided religious, generation-specific, culture-specific, outdated, and potentially offensive references. 
 3. To decrease the confounding influences from visuospatial processing, we strived to avoid consistencies in color, size, and shape between stimuli and answers.
@@ -54,8 +54,8 @@ Behavioral metrics provided by the user interface:
 
 Data format:
 Each block is saved in a .mat file (e.g. subject1_set1.mat) which contains information about the block, and the performance metrics above as the following variables:
--- `DurationsFixStimAns` contains the durations (in seconds, to microsecond decimal precision) of the Fixation, Stimulus, and Answer phases in seconds). It is a matrix of 3 columns and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
--- `userAnswers` contains the specific answer image choice clicked by the subject for each trial (A=top left answer, B=top right, C=bottom left, D=bottom right). It is a vector of 1 column and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
+- `DurationsFixStimAns` contains the durations (in seconds, to microsecond decimal precision) of the Fixation, Stimulus, and Answer phases in seconds). It is a matrix of 3 columns and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
+- `userAnswers` contains the specific answer image choice clicked by the subject for each trial (A=top left answer, B=top right, C=bottom left, D=bottom right). It is a vector of 1 column and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
 
 ## Tips
 
@@ -63,8 +63,9 @@ Here are a few tips to make the administration of the task as easy as possible:
 - Emphasize to the the subject beforehand that they must pick the answr that is most associated using their general knowledge about those objects, not the color, shape, texture, or other visual feature. 
 - Behavioral timelocking with neural data amplifiers (for example, EEG experiments) can be done using a photodiode analog input. A photodiode option is available on the UI (checkbox at lower left) which enables grey-scale light transitions at top left that can be tracked with a screen-mounted photodiode.
 
-## Cite
+## References
+Howard, D. (1992). The Pyramids and Palm Trees Test: A Test of Semantic Access from Words and Pictures. Thames Valley Test Company.
+Moore et al. (2022). A modified Camel and Cactus Test detects presymptomatic semantic impairment in genetic frontotemporal dementia within the GENFI cohort. Applied Neuropsychology. Adult, 29(1), 112–119.## Cite
 
-* Howard, D. (1992). The Pyramids and Palm Trees Test: A Test of Semantic Access from Words and Pictures. Thames Valley Test Company.
-**Moore et al. (2022). A modified Camel and Cactus Test detects presymptomatic semantic impairment in genetic frontotemporal dementia within the GENFI cohort. Applied Neuropsychology. Adult, 29(1), 112–119.
+## Cite
 The scientific manuscript describing the ViSAT task is currently submitted; upon publication the direct citation will be listed here.
