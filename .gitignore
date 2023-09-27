@@ -12,3 +12,5 @@
 !assets/*
 !ViSAT_images
 !ViSAT_images/*
+!ViSAT_images/*/*
+!ViSAT_images/*/*/*
