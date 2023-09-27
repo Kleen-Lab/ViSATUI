@@ -43,14 +43,19 @@ Behavioral metrics provided by the user interface:
 2. Response time for clicking the answer (semantic processing required)
 3. Accuracy (whether consensus/most common answer was chosen)
 
+Data format:
+Each block is saved in a .mat file (e.g. subject1_set1.mat) which contains information about the block, and the performance metrics above as the following variables:
+-- `DurationsFixStimAns` contains the durations (in seconds, to microsecond decimal precision) of the Fixation, Stimulus, and Answer phases in seconds). It is a matrix of 3 columns and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
+-- `userAnswers` contains the specific answer image choice clicked by the subject for each trial (A=top left answer, B=top right, C=bottom left, D=bottom right). It is a vector of 1 column and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
+
 ## Administering the task
 
 To administer the task, you need to:
 - Dowload the current folder, either by cloning the repository or by downloading the zip archive of the folder and extracting it to your desired location.
-- Open the User Interface by double-clicking on the `ViSATUI.mlapp` file that is included in the folder.
-- Enter the `User ID` of the patient that will be performing the task. This `ID` is important, since all data resulting from the task will be saved in a folder named after that `ID`, e.g. `ViSATUI/test_id/`. Make sure to enter the same `ID` for all the blocks that the patient performs.
-- Have the patient start the task on the computer. They can perform all the blocks in one sitting, or take breaks in between sessions. As long as the `ID` stays consistent, you can even close the software in between sessions.
-- Done! You can find the resulting data in the `ViSATUI/ID` folders that are created for each patient `ID`.
+- Open the User Interface by either entering `ViSATUI` into the Command Window, or by double-clicking on the `ViSATUI.mlapp` file that is included in the folder.
+- Enter the `User ID` of the subject that will be performing the task. This `ID` is important, since all data resulting from the task will be saved in a folder named after that `ID`, e.g. `ViSATUI/test_id/`. Make sure to enter the same `ID` for all the blocks that the subject performs.
+- Have the subject start the task on the computer. They can perform different blocks in different sittings (i.e. over time or longitudinally), or do multiple in a row. As long as the `ID` stays consistent, you can even close the software in between sessions.
+- You can find the resulting data in the `ViSATUI/ID` folders that are created for each subject `ID`.
 
 ## Tips
 
