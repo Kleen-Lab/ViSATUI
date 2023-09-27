@@ -12,7 +12,7 @@ As an example, one might associate an image of a squirrel would be most-associat
 
 ## Task development
 
-The task was adapted from concepts and similar stimuli as the Pyramids and Palm Trees (PPT) and Camels and CacTus (CCT) tasks, yet with a variety of features changed:
+The task was adapted from concepts and similar stimuli as the Pyramids and Palm Trees (PPT) and Camels and Cactus (CCT) tasks, yet with a variety of features changed:
 1. We used new color and picture images from royalty-free stock photo repositories online (pexels.com, pixabay.com, and unsplash.com).
 2. To increase the potential generalizability of ViSAT across participants of all backgrounds (age, language, education, literacy levels, and socioeconomic status), we avoided religious, generation-specific, culture-specific, outdated, and potentially offensive references. 
 3. To decrease the confounding influences from visuospatial processing, we strived to avoid consistencies in color, size, and shape between stimuli and answers.
