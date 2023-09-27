@@ -15,8 +15,8 @@ As an example, for most people an image of a squirrel would be most-associated w
 The task was adapted from concepts and similar stimuli as the "Pyramids and Palm Trees" (PPT[^1]) and "Camels and Cactus" (CCT[^2]) tasks, yet with a variety of features changed:
 1. We used new color and picture images from royalty-free online stock photo repositories (pexels.com, pixabay.com, and unsplash.com).
 2. To increase the potential generalizability of ViSAT across participants of all backgrounds (age, language, education, literacy levels, and socioeconomic status), we avoided religious, generation-specific, culture-specific, outdated, and potentially offensive references. 
-3. To decrease the [possibility of] confounding influences from visuospatial processing, we strived to avoid consistencies in color, size, and shape between stimuli and answers.
-4. Semantic associations can vary between participants based on factors such as personal experiences and backgrounds[, therefore there is a possibility that the answer identified by the authors as most-associated with the stimulus would not be percieved as such by the majority of people]. [To avoid this, i]nstead of deciding amongst ourselves which answer was "correct", we obtained normative data and quantified the proportion of responses for each choice, convening on a “consensus” (top) answer as the “accurate” response.
+3. To decrease the possibility of confounding influences from visuospatial processing, we strived to avoid consistencies in color, size, and shape between stimuli and answers.
+4. Semantic associations can vary between participants based on factors such as personal experiences and backgrounds, therefore there is a possibility that the answer identified by the authors as most-associated with the stimulus would not be percieved as such by the majority of people. To avoid this, instead of deciding amongst ourselves which answer was "correct", we obtained normative data and quantified the proportion of responses for each choice, convening on a “consensus” (top) answer as the “accurate” response.
 5. The percent consensus (PCons) of the top answer can therefore be used as a difficulty metric for statistical modeling if desired.
 
 ## User interface
@@ -33,7 +33,7 @@ There are three phases for each trial:
 ![Picture displaying the task workflow, including the fixation point, the stimulus and the answers.](assets/workflow.png)
 
 There are four blocks of 25 trials each, for a total of 100 trials. 
-Each block begins with the same three "practice trials" (not scored) to allow [for] acclimation prior to the actual set of 25 trials. 
+Each block begins with the same three "practice trials" (not scored) to allow for acclimation prior to the actual set of 25 trials. 
 Blocks are balanced in terms of difficulty (similar average trial PCons), and thus can be done at different timepoints for longitudinal comparison.
 
 ## Administering the task
@@ -60,8 +60,8 @@ Each block is saved in a .mat file (e.g. subject1_set1.mat) which contains infor
 ## Tips
 
 Here are a few tips to make the administration of the task as easy as possible: 
-- Emphasize to the the subject beforehand that they must pick the answer that is most[-]associated with the stimulus, using their general knowledge about those objects[ instead of their] color, shape, texture, or other visual features. 
-- Behavioral timelocking with neural data amplifiers (for example, EEG experiments) can be done using a photodiode analog input. A photodiode option is available on the UI (checkbox [located on the] lower left) which enables grey-scale light transitions at top left that can be tracked with a screen-mounted photodiode.
+- Emphasize to the the subject beforehand that they must pick the answer that is most-associated with the stimulus, using their general knowledge about those objects instead of the color, shape, texture, or other visual features of the objects. 
+- Behavioral timelocking with neural data amplifiers (for example, EEG experiments) can be done using a photodiode analog input. A photodiode option is available on the UI (checkbox located on the lower left) which enables grey-scale light transitions at top left that can be tracked with a screen-mounted photodiode.
 
 ## Cite
 The scientific manuscript describing the ViSAT task is currently submitted; upon publication the direct citation will be listed here.
