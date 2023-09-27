@@ -4,19 +4,19 @@ Welcome to the repository for the Visual Semantic Association Task (ViSAT).
 
 ## Task description
 
-ViSAT is an image-based task that tests the ability to associate the content between images based on factual/general long-term knowledge about them. The ViSAT task specifically targets non-verbal semantic memory. There are no requirements of sound, speech, reading, or writing to perform the task. 
+ViSAT is an image-based task that tests the ability to associate the content between images based on factual/general long-term knowledge about them. The ViSAT task specifically targets non-verbal semantic memory. Performing the task does not require any sound, speech, reading, or writing. 
 
-As an example, for most people an image of a squirrel would be most-associated with an image of a nut compared to images of a potato, corn, or carrots. The squirrel image would be called the "stimulus" and the other 4 images are called the "answer" images.
+As an example, for most people an image of a squirrel would be most-associated with an image of a nut compared to images of a potato, corn, or carrots. The squirrel image would be called the "stimulus" and the other 4 images would be the "answer" images.
 
 ![Example of a trial using a squirrel as the stimulus.](assets/squirrel.png)
 
 ## Task development
 
-The task was adapted from concepts and similar stimuli as the Pyramids and Palm Trees (PPT[footnote1]) and Camels and Cactus (CCT[footnote2]) tasks, yet with a variety of features changed:
-1. We used new color and picture images from royalty-free stock photo repositories online (pexels.com, pixabay.com, and unsplash.com).
+The task was adapted from concepts and similar stimuli as the "Pyramids and Palm Trees" (PPT[^1]) and "Camels and Cactus" (CCT[^2]) tasks, yet with a variety of features changed:
+1. We used new color and picture images from royalty-free online stock photo repositories (pexels.com, pixabay.com, and unsplash.com).
 2. To increase the potential generalizability of ViSAT across participants of all backgrounds (age, language, education, literacy levels, and socioeconomic status), we avoided religious, generation-specific, culture-specific, outdated, and potentially offensive references. 
-3. To decrease the confounding influences from visuospatial processing, we strived to avoid consistencies in color, size, and shape between stimuli and answers.
-4. Since semantic associations can vary between participants based on factors such as personal experiences and backgrounds. Instead of deciding amongst ourselves which answer was "correct") we obtained normative data and quantified the proportion of responses for each choice, convening on a “consensus” (top) answer as the “accurate” response.
+3. To decrease the [possibility of] confounding influences from visuospatial processing, we strived to avoid consistencies in color, size, and shape between stimuli and answers.
+4. Semantic associations can vary between participants based on factors such as personal experiences and backgrounds[, therefore there is a possibility that the answer identified by the authors as most-associated with the stimulus would not be percieved as such by the majority of people]. [To avoid this, i]nstead of deciding amongst ourselves which answer was "correct", we obtained normative data and quantified the proportion of responses for each choice, convening on a “consensus” (top) answer as the “accurate” response.
 5. The percent consensus (PCons) of the top answer can therefore be used as a difficulty metric for statistical modeling if desired.
 
 ## User interface
@@ -33,8 +33,8 @@ There are three phases for each trial:
 ![Picture displaying the task workflow, including the fixation point, the stimulus and the answers.](assets/workflow.png)
 
 There are four blocks of 25 trials each, for a total of 100 trials. 
-Each block begins with the same three "practice trials" (not scored) to allow acclimation prior to the actual set of 25 trials. 
-Blocks are balanced in terms of difficulty (similar average trial PCons), and thus can be done at different timepoint for longitudinal comparison.
+Each block begins with the same three "practice trials" (not scored) to allow [for] acclimation prior to the actual set of 25 trials. 
+Blocks are balanced in terms of difficulty (similar average trial PCons), and thus can be done at different timepoints for longitudinal comparison.
 
 ## Administering the task
 
@@ -54,18 +54,18 @@ Behavioral metrics provided by the user interface:
 
 Data format:
 Each block is saved in a .mat file (e.g. subject1_set1.mat) which contains information about the block, and the performance metrics above as the following variables:
-- `DurationsFixStimAns` contains the durations (in seconds, to microsecond decimal precision) of the Fixation, Stimulus, and Answer phases in seconds). It is a matrix of 3 columns and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
+- `DurationsFixStimAns` contains the durations (in seconds, to microsecond decimal precision) of the Fixation, Stimulus, and Answer phases, in seconds. It is a matrix of 3 columns and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
 - `userAnswers` contains the specific answer image choice clicked by the subject for each trial (A=top left answer, B=top right, C=bottom left, D=bottom right). It is a vector of 1 column and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
 
 ## Tips
 
 Here are a few tips to make the administration of the task as easy as possible: 
-- Emphasize to the the subject beforehand that they must pick the answr that is most associated using their general knowledge about those objects, not the color, shape, texture, or other visual feature. 
-- Behavioral timelocking with neural data amplifiers (for example, EEG experiments) can be done using a photodiode analog input. A photodiode option is available on the UI (checkbox at lower left) which enables grey-scale light transitions at top left that can be tracked with a screen-mounted photodiode.
-
-## References
-Howard, D. (1992). The Pyramids and Palm Trees Test: A Test of Semantic Access from Words and Pictures. Thames Valley Test Company.
-Moore et al. (2022). A modified Camel and Cactus Test detects presymptomatic semantic impairment in genetic frontotemporal dementia within the GENFI cohort. Applied Neuropsychology. Adult, 29(1), 112–119.## Cite
+- Emphasize to the the subject beforehand that they must pick the answer that is most[-]associated with the stimulus, using their general knowledge about those objects[ instead of their] color, shape, texture, or other visual features. 
+- Behavioral timelocking with neural data amplifiers (for example, EEG experiments) can be done using a photodiode analog input. A photodiode option is available on the UI (checkbox [located on the] lower left) which enables grey-scale light transitions at top left that can be tracked with a screen-mounted photodiode.
 
 ## Cite
 The scientific manuscript describing the ViSAT task is currently submitted; upon publication the direct citation will be listed here.
+
+### References
+[^1]: Howard, D. (1992). The Pyramids and Palm Trees Test: A Test of Semantic Access from Words and Pictures. Thames Valley Test Company.
+[^2]: Moore et al. (2022). A modified Camel and Cactus Test detects presymptomatic semantic impairment in genetic frontotemporal dementia within the GENFI cohort. Applied Neuropsychology. Adult, 29(1), 112–119.
