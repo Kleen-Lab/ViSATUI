@@ -36,3 +36,5 @@ Behavioral metrics provided by the user interface:
 Tips:
 - Emphasize to the the subject beforehand that they must pick the answr that is most associated using their general knowledge about those objects, not the color, shape, texture, or other visual feature. 
 - Behavioral timelocking with neural data amplifiers (for example, EEG experiments) can be done using a photodiode analog input. A photodiode option is available on the UI (checkbox at lower left) which enables grey-scale light transitions at top left that can be tracked with a screen-mounted photodiode.
+
+The scientific manuscript describing the ViSAT task is currently submitted; upon publication the direct citation will be listed here.
