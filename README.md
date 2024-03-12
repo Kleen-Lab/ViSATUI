@@ -72,7 +72,7 @@ Here are a few tips to make the administration of the task as easy as possible:
 - Behavioral timelocking with neural data amplifiers (for example, EEG experiments) can be done using a photodiode analog input. A photodiode option is available on the UI (checkbox located on the lower left) which enables grey-scale light transitions at top left that can be tracked with a screen-mounted photodiode.
 
 ## Cite
-The scientific manuscript describing the ViSAT task is currently submitted; upon publication the direct citation will be listed here.
+The scientific manuscript describing the ViSAT task is currently in press; upon publication the direct citation will be listed here.
 
 ### References
 [^1]: Howard, D. (1992). The Pyramids and Palm Trees Test: A Test of Semantic Access from Words and Pictures. Thames Valley Test Company.
