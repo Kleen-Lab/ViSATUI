@@ -19,14 +19,17 @@ The task was adapted from concepts and similar stimuli as the "Pyramids and Palm
 4. Semantic associations can vary between participants based on factors such as personal experiences and backgrounds, therefore there is a possibility that the answer identified by the authors as most-associated with the stimulus would not be percieved as such by the majority of people. To avoid this, instead of deciding amongst ourselves which answer was "correct", we obtained normative data and quantified the proportion of responses for each choice, convening on a “consensus” (top) answer as the “accurate” response. 
 5. The percent consensus (PCons) of the top answer can therefore be used as a difficulty metric for statistical modeling if desired. As normative data we also provide the probabilities of each answer choice based on crowdsourced data, which can be used for general interpretation or other statistical modeling, etc. 
 
-## User interface
+## Materials and task delivery
 
-TASK DELIVERY: The ViSAT task is delivered by a computer interface in MATLAB which is available at most universities/institutions, sign in here with your institution email: https://www.mathworks.com/login?uri=%2Flicensecenter%2Flicenses%2Fadd%3Fs_tid%3DML_mod_pers_cwl
+The ViSAT task is delivered by a computer interface in MATLAB which is available at most universities/institutions, sign in here with your institution email: https://www.mathworks.com/login?uri=%2Flicensecenter%2Flicenses%2Fadd%3Fs_tid%3DML_mod_pers_cwl
 
-MATERIALS: The software and all stimuli are included in this public repository. 
+The software and all stimuli are included in this public repository.
+
 A PDF of the individual trials (for manual/printable/paper delivery if desired) is in this same repository.
--- Three practice trials: ViSAT_Official_TrialsPractice.pdf
--- Full set of 100 trials (4 blocks of 25 difficulty-balanced trials): ViSAT_Official_Trials1-100.pdf
+- Three practice trials: ViSAT_Official_TrialsPractice.pdf
+- Full set of 100 trials (4 blocks of 25 difficulty-balanced trials): ViSAT_Official_Trials1-100.pdf
+
+## User interface
 
 ![Picture of the user interface used to administer the task.](assets/user_interface.png)
 
