@@ -26,8 +26,8 @@ The ViSAT task is delivered by a computer interface in MATLAB which is available
 The software and all stimuli are included in this public repository.
 
 A PDF of the individual trials (for manual/printable/paper delivery if desired) is in the "ViSAT_images" folder: https://github.com/Kleen-Lab/ViSATUI/tree/main/ViSAT_images
-- Three practice trials: ViSAT_Official_TrialsPractice.pdf
-- Full set of 100 trials (4 blocks of 25 difficulty-balanced trials): ViSAT_Official_Trials1-100.pdf
+- ViSAT_Official_TrialsPractice.pdf: Three practice trials
+- ViSAT_Official_Trials1-100.pdf: Full set of 100 trials (4 blocks of 25 difficulty-balanced trials)
 
 ## User interface
 
