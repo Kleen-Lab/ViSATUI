@@ -6,7 +6,7 @@ Welcome to the repository for the Visual Semantic Association Task (ViSAT).
 
 ViSAT is an image-based task that tests the ability to associate the content between images based on factual/general long-term knowledge about them. The ViSAT task specifically targets non-verbal semantic memory. Performing the task does not require any sound, speech, reading, or writing. 
 
-As an example, for most people an image of a squirrel would be most-associated with an image of a nut compared to images of a potato, corn, or carrots. The squirrel image would be called the "stimulus" and the other 4 images would be the "answer" images.
+As an example, for most people, an image of a squirrel would be most-associated with an image of a nut compared to images of a potato, corn, or carrots. The squirrel image would be called the "stimulus" and the other 4 images would be the "answer" images.
 
 ![Example of a trial using a squirrel as the stimulus.](assets/squirrel.png)
 
