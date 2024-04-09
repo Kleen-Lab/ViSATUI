@@ -21,11 +21,11 @@ The task was adapted from concepts and similar stimuli as the "Pyramids and Palm
 
 ## Materials and task delivery
 
-The ViSAT task is delivered by a computer interface in MATLAB which is available at most universities/institutions, sign in here with your institution email: https://www.mathworks.com/login?uri=%2Flicensecenter%2Flicenses%2Fadd%3Fs_tid%3DML_mod_pers_cwl
+The ViSAT task is delivered by a computer interface in MATLAB which is available at most universities/institutions, you can sign in [here](https://www.mathworks.com/login?uri=%2Flicensecenter%2Flicenses%2Fadd%3Fs_tid%3DML_mod_pers_cwl) with your institution email.
 
 The software and all stimuli are included in this public repository.
 
-A PDF of the individual trials (for manual/printable/paper delivery if desired) is in the "ViSAT_images" folder: https://github.com/Kleen-Lab/ViSATUI/tree/main/ViSAT_images
+A PDF of the individual trials (for manual/printable/paper delivery if desired) is in the [`ViSAT_images`](https://github.com/Kleen-Lab/ViSATUI/tree/main/ViSAT_images) folder.
 - ViSAT_Official_TrialsPractice.pdf: Three practice trials
 - ViSAT_Official_Trials1-100.pdf: Full set of 100 trials (4 blocks of 25 difficulty-balanced trials)
 
