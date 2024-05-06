@@ -15,5 +15,7 @@
 !ViSAT_images/*/*
 !ViSAT_images/*/*/*
 !mturk_data.mat
+!data
+!data/*
 
 .DS_Store
