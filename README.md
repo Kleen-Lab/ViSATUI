@@ -26,8 +26,8 @@ The ViSAT task is delivered by a computer interface in MATLAB which is available
 The software and all stimuli are included in this public repository.
 
 A PDF of the individual trials (for manual/printable/paper delivery if desired) is in the [`ViSAT_images`](https://github.com/Kleen-Lab/ViSATUI/tree/main/ViSAT_images) folder.
-- ViSAT_Official_TrialsPractice.pdf: Three practice trials
-- ViSAT_Official_Trials1-100.pdf: Full set of 100 trials (4 blocks of 25 difficulty-balanced trials)
+- ViSAT_Official_TrialsPractice.pdf: 3 practice trials
+- ViSAT_Official_Trials1-100.pdf: 100 total trials (4 sets of 25 difficulty-balanced trials)
 
 ## User interface
 
@@ -40,17 +40,17 @@ There are three phases for each trial:
 
 ![Picture displaying the task workflow, including the fixation point, the stimulus and the answers.](assets/workflow.png)
 
-There are four blocks of 25 trials each, for a total of 100 trials. 
-Each block begins with the same three "practice trials" (not scored) to allow for acclimation prior to the actual set of 25 trials. 
-Blocks are balanced in terms of difficulty (similar average trial PCons), and thus can be done at different timepoints for longitudinal comparison.
+There are four sets of 25 trials each, for a total of 100 trials. 
+Each set begins with the same three "practice trials" (not scored) to allow for acclimation prior to the actual set of 25 trials. 
+Sets are balanced in terms of difficulty (similar average trial PCons), and thus can be done at different timepoints for longitudinal comparison.
 
 ## Administering the task
 
 To administer the task, you need to:
 - Dowload the current folder (~127mb, due to picture stimuli), either by cloning the repository or by downloading the zip archive of the folder and extracting it to your desired location.
 - Open the User Interface by either entering `ViSATUI` into the MATLAB Command Window, or by double-clicking on the `ViSATUI.mlapp` file that is included in the folder.
-- Enter the `User ID` of the subject that will be performing the task. This `ID` is important, since all data resulting from the task will be saved in a folder named after that `ID`, e.g. `ViSATUI/test_id/`. Make sure to enter the same `ID` for all the blocks that the subject performs.
-- Have the subject start the task on the computer. They can perform different blocks in different sittings (i.e. over time or longitudinally), or do multiple in a row. As long as the `ID` stays consistent, you can even close the software in between sessions.
+- Enter the `ID` of the subject that will be performing the task. This `ID` is important, since all data resulting from the task will be saved in a folder named after that `ID`, e.g. `ViSATUI/test_id/`. Make sure to enter the same `ID` for all the sets that the subject performs.
+- Have the subject start the task on the computer. They can perform different sets in different sittings (i.e. over time or longitudinally), or do multiple in a row. As long as the `ID` stays consistent, you can even close the software in between sessions.
 - You can find the resulting data in the `ViSATUI/ID` folders that are created for each subject `ID`.
 
 ## Behavioral metrics
@@ -62,18 +62,32 @@ Behavioral metrics provided by the user interface:
 
 
 Data formats:
-The trial-by-trial results/data from each block are saved in a .csv file (spreadsheet), and also in a .mat file (e.g. subject1_set1.mat) in the ViSATUI folder. These two file formats are for convenience, and they contain information about the block along with the performance metrics above.
+The trial-by-trial results/data from each set are saved in a .csv file (spreadsheet, e.g. set1.csv), and also in a .mat file (e.g. set1.mat) in the ViSATUI folder. These two file formats are for convenience, and they contain information about the set along with the performance metrics above.
 
 *MAT files (MATLAB)*
-- `DurationsFixStimAns` contains the durations (in seconds, to microsecond decimal precision) of the Fixation, Stimulus, and Answer phases, in seconds. It is a matrix of 3 columns and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
-- `userAnswers` contains the specific answer image choice clicked by the subject for each trial (A=top left answer, B=top right, C=bottom left, D=bottom right). It is a vector of 1 column and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that block)
+- `DurationsFixStimAns` contains the durations (in seconds, to microsecond decimal precision) of the Fixation, Stimulus, and Answer phases, in seconds. It is a matrix of 3 columns and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that set)
+- `userAnswers` contains the specific answer image choice clicked by the subject for each trial (A=top left answer, B=top right, C=bottom left, D=bottom right). It is a vector of 1 column and 28 rows (1:3 = practice trials, 4-28 are the 25 trials for that set)
 
 *CSV files (any spreadsheet viewer)*
-The .csv file outputs only actual trials. Practice trials are ignored, as they are not incorporated in the scoring of performance. Information including PCons for the participant's answer and for the consensus (PCons) answer are provided, along with response times for both stimulus and the answer stages.
+The .csv file outputs only actual trials. Practice trials are ignored, as they are not incorporated in the scoring of performance. Information including PCons for the participant's answer and for the consensus (PCons) answer are provided, along with response times for both stimulus and the answer stages. More details on the different data columns are below:
+- `trial_id`, integer. Ranges from 1-100, trials 1-25 are in set 1, 26-50 are in set 2, 51-75 are in set 3, and 76-100 are in set 4.
+- `answer`, char. Patient answer, ranges from 'A'-'D'.
+- `consensus_answer`, char. Consensus answer identified through normative testing for this trial. Used as the "correct" answer. Ranges from 'A'-'D'.
+- `correct`, boolean. 1 if the answer is correct as identified by the consensus answer, 0 if not.
+- `pcons_answer`, float. Percent consensus for the answer given by the patient, as identified through the answers of normative testers. Ranges from 0-100.
+- `pcons_consensus_answer`, float. Percent consensus for the consensus answer, as identified throught the answers of normative testers. Can be used as a measure of trial difficulty. Ranges from 0-100.
+- `stimulus_response_time`, float. Time interval between when the stimulus is presented and when the patient clicks on the stimulus image.
+- `answer_response_time`, float. Time interval between when the answers are presented and when the patient clicks on their chosen answer.
 
 *SUMMARY OF RESULTS and normative data comparisons*--
-An additional summary .csv file called "Overall.csv" is saved in the same folder. This provides the summary of results for each block run including raw and perecentile accuracies and response times. Any blocks that have not been run yet will show "NaN" in this file, until they are run for your participant.
-
+An additional summary .csv file called "Overall.csv" is saved in the same folder. This provides the summary of results for each set run including raw and perecentile accuracies and response times. Any sets that have not been run yet will show "NaN" in this file, until they are run for your participant. More details on the different data columns are below:
+- `trial_set`, string. Represents each of the 4 sets as well as all of them combined ("set1"-"set4", "all_sets").
+- `accuracy`, float. Accuracy of the patient on that set, using the consensus of normative testers as the "correct" answer.
+- `accuracy_percentile`, float. Percentile of the accuracy when compared to our population of healthy controls.
+- `stimulus_response_time`, float. Average response time to the stimulus.
+- `stimulus_response_time_percentile`, float. Percentile of the stimulus response time when compared to our population of healthy controls.
+- `answer_response_time`, float. Average response time to the answer.
+- `answer_response_time_percentile`, float. Percentile of the answer response time when compared to our population of healthy controls.
 
 ## Tips
 
