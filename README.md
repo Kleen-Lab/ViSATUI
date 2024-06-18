@@ -2,6 +2,12 @@
 
 Welcome to the repository for the Visual Semantic Association Task (ViSAT).
 
+Please cite the following paper in your publications if you have used our software in your research: 
+Tran EB, Vonk JMJ, Casaletto K, Zhang D, Christin R, Marathe S, Gorno-Tempini ML, Chang EF, Kleen JK. Development and validation of a nonverbal consensus-based semantic memory paradigm in patients with epilepsy. "Development and validation of a nonverbal consensus-based semantic memory paradigm in patients with epilepsy." Journal International Neuropsychological Society. 2024 Apr 15:1-9. [https://doi.org/10.1017/S1355617724000158](https://doi.org/10.1017/S1355617724000158)
+
+ViSAT is licensed for non-commercial research use at no cost by the Regents of the University of California under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The following copyright notice and citation is to be included in any publication, material or media wherein all or a part of Licensed Material is contained, “Certain materials incorporated herein are Copyright © 2024 The Regents of the University of California (REGENTS). All Rights Reserved.  
+
 ## Task description
 
 ViSAT is an image-based task that tests the ability to associate the content between images based on factual/general long-term knowledge about them. The ViSAT task specifically targets non-verbal semantic memory. Performing the task does not require any sound, speech, reading, or writing. 
